@@ -7,7 +7,6 @@ from werkzeug.utils import secure_filename
 from flask_basic.config import *
 
 app = Flask(__name__)
-
 # 引入配置
 app.config.from_object(config['dev'])
 
