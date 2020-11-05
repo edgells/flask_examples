@@ -1,6 +1,6 @@
 from flask import Flask, url_for
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import pool
+
 
 import eventlet
 
